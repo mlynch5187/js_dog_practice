@@ -24,4 +24,10 @@ describe('Dog', function() {
 
     assert.equal(max.name, 'Max');
   });
+
+  it('should have a color', function() {
+    var fido = new Dog('Fido', 'Black');
+
+    assert.equal(fido.color, 'Black')
+  });
 });
