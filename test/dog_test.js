@@ -38,8 +38,8 @@ describe('Dog', function() {
   });
 
   it('should not be a color other than black by default', function() {
-    var fido = new Dog('Fido');
+    var fido = new Dog('Fido', 'Red');
 
-    // assert.equal(fido.isBlack(), false);
+    assert.equal(fido.isBlack(), false);
   });
 });

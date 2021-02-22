@@ -7,6 +7,12 @@ class Dog {
         this.color = color;
     }
   }
+
+  isBlack() {
+    if (this.color !== 'Black') {
+      return false;
+    }
+  }
 }
 
 module.exports = Dog;
