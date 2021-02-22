@@ -13,6 +13,11 @@ class Dog {
       return false;
     }
   }
+
+  Bark() {
+    return 'Woof!'; {
+    }
+  }
 }
 
-module.exports = Dog;
+module.exports = Dog

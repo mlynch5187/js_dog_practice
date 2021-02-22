@@ -42,4 +42,10 @@ describe('Dog', function() {
 
     assert.equal(fido.isBlack(), false);
   });
+
+  it('should be able to bark', function() {
+    var fido = new Dog('Fido');
+
+    assert.equal(fido.Bark(), 'Woof!');
+  });
 });
