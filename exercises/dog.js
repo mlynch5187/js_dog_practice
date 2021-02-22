@@ -1,7 +1,11 @@
 class Dog {
   constructor(name, color) {
     this.name = name;
-    this.color = 'Black';
+    if (color === undefined) {
+      this.color = 'Black';
+    } else {
+        this.color = color;
+    }
   }
 }
 

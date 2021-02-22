@@ -28,12 +28,18 @@ describe('Dog', function() {
   it('should have a color', function() {
     var fido = new Dog('Fido', 'Black');
 
-    assert.equal(fido.color, 'Black')
+    assert.equal(fido.color, 'Black');
   });
 
   it('should be black by default', function() {
     var fido = new Dog('Fido');
 
-    assert.equal(fido.color, 'Black')
+    assert.equal(fido.color, 'Black');
+  });
+
+  it('should not be a color other than black by default', function() {
+    var fido = new Dog('Fido');
+
+    // assert.equal(fido.isBlack(), false);
   });
 });
