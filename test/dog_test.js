@@ -48,4 +48,10 @@ describe('Dog', function() {
 
     assert.equal(fido.Bark(), 'Woof!');
   });
+
+  it('should be able to say a message', function()  {
+    var fido = new Dog('Fido');
+
+    assert.equal(fido.Says('Yap!'), '**;* Yap! *;**');
+  });
 });

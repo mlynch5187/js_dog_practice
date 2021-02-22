@@ -18,6 +18,10 @@ class Dog {
     return 'Woof!'; {
     }
   }
+
+  Says(message)  {
+    return `**;* ${message} *;**`;
+  }
 }
 
 module.exports = Dog
