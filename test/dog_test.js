@@ -30,4 +30,10 @@ describe('Dog', function() {
 
     assert.equal(fido.color, 'Black')
   });
+
+  it('should be black by default', function() {
+    var fido = new Dog('Fido');
+
+    assert.equal(fido.color, 'Black')
+  });
 });
