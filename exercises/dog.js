@@ -1,6 +1,6 @@
-class Dog{
-  constructor() {
-
+class Dog {
+  constructor(name) {
+    this.name = name;
   }
 }
 
